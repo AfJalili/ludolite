@@ -1,0 +1,25 @@
+{
+  "name": "ludolite",
+  "version": "1.0.0",
+  "description": " a ludolite for Weblite",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/AfshinJalili/ludolite.git"
+  },
+  "author": "afesh <afshin6jalily@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/AfshinJalili/ludolite/issues"
+  },
+  "homepage": "https://gitlab.com/AfshinJalili/ludolite#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
