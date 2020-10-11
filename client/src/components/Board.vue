@@ -4,10 +4,10 @@
     <div class="container-row1 clearfix">
       <div class="row1-col1 green">
         <div class="row1-col1-child clearfix white">
-          <div class="green"></div>
-          <div class="green"></div>
-          <div class="green"></div>
-          <div class="green"></div>
+          <div class="green" id="c60">60</div>
+          <div class="green" id="c61">61</div>
+          <div class="green" id="c62">62</div>
+          <div class="green" id="c63">63</div>
         </div>
       </div>
       <div class="row1-col2 clearfix">
@@ -18,24 +18,24 @@
         <div id="c43">43</div>
         <div class="yellow" id="c0">0</div>
         <div id="c41">41</div>
-        <div class="yellow"></div>
+        <div class="yellow" id="c44">44</div>
         <div id="c1">1</div>
         <div id="c40">40</div>
-        <div class="yellow"></div>
+        <div class="yellow" id="c45">45</div>
         <div id="c2">2</div>
         <div id="c39">39</div>
-        <div class="yellow"></div>
+        <div class="yellow" id="c46">46</div>
         <div id="c3">3</div>
         <div id="c38">38</div>
-        <div class="yellow"></div>
+        <div class="yellow" id="c47">47</div>
         <div id="c4">4</div>
       </div>
       <div class="row1-col3 yellow">
         <div class="row1-col3-child clearfix white">
-          <div class="yellow"></div>
-          <div class="yellow"></div>
-          <div class="yellow"></div>
-          <div class="yellow"></div>
+          <div class="yellow" id="c64">64</div>
+          <div class="yellow" id="c65">65</div>
+          <div class="yellow" id="c66">66</div>
+          <div class="yellow" id="c67">67</div>
         </div>
       </div>
     </div>
@@ -51,10 +51,10 @@
         <div id="c">37</div>
         <div class="hide"></div>
         <div id="c32">32</div>
-        <div class="green"></div>
-        <div class="green"></div>
-        <div class="green"></div>
-        <div class="green"></div>
+        <div class="green" id="c48">48</div>
+        <div class="green" id="c49">49</div>
+        <div class="green" id="c50">50</div>
+        <div class="green" id="c51">51</div>
         <div class="hide"></div>
         <div id="c31">31</div>
         <div id="c30">30</div>
@@ -62,9 +62,11 @@
         <div id="c28">28</div>
         <div id="c27">27</div>
       </div>
+
       <div class="row2-col2" @score="setScore">
         <TheDice />
       </div>
+
       <div class="row2-col3 clearfix">
         <div id="c5">5</div>
         <div id="c6">6</div>
@@ -72,10 +74,10 @@
         <div id="c8">8</div>
         <div id="c9">9</div>
         <div class="hide"></div>
-        <div class="blue"></div>
-        <div class="blue"></div>
-        <div class="blue"></div>
-        <div class="blue"></div>
+        <div class="blue" id="c55">55</div>
+        <div class="blue" id="c54">54</div>
+        <div class="blue" id="c53">53</div>
+        <div class="blue" id="c52">52</div>
         <div id="c10">10</div>
         <div class="hide"></div>
         <div id="c15">15</div>
@@ -91,24 +93,25 @@
     <div class="container-row3 clearfix">
       <div class="row3-col1 red">
         <div class="row3-col1-child clearfix white">
-          <div class="red"></div>
-          <div class="red"></div>
-          <div class="red"></div>
-          <div class="red"></div>
+          <div class="red" id="c68">68</div>
+          <div class="red" id="c69">69</div>
+          <div class="red" id="c70">70</div>
+          <div class="red" id="c">71</div>
         </div>
       </div>
+
       <div class="row3-col2 clearfix">
         <div id="c26">26</div>
-        <div class="red"></div>
+        <div class="red" id="c59">59</div>
         <div id="c16">16</div>
         <div id="c25">25</div>
-        <div class="red"></div>
+        <div class="red" id="c58">58</div>
         <div id="c17">17</div>
         <div id="c24">24</div>
-        <div class="red"></div>
+        <div class="red" id="c57">57</div>
         <div id="c18">18</div>
         <div id="c23">23</div>
-        <div class="red"></div>
+        <div class="red" id="c56">56</div>
         <div id="c19">19</div>
         <div class="red" id="c22">22</div>
         <div id="c21">21</div>
@@ -117,12 +120,13 @@
         <div class="hide"></div>
         <div class="hide"></div>
       </div>
+
       <div class="row3-col3 blue">
         <div class="row3-col3-child clearfix white">
-          <div class="blue"></div>
-          <div class="blue"></div>
-          <div class="blue"></div>
-          <div class="blue"></div>
+          <div class="blue" id="c72">72</div>
+          <div class="blue" id="c73">73</div>
+          <div class="blue" id="c74">74</div>
+          <div class="blue" id="c75">75</div>
         </div>
       </div>
     </div>
